@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 import { AppService } from './app.service';
+import { CheckForUpdateService } from './check-for-update.service';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,7 @@ export class AppComponent {
   title = 'ng-sample';
   version = '';
 
-  constructor(private appService: AppService) { }
+  constructor(private appService: AppService, private checkForUpdateService: CheckForUpdateService) { }
 
   onClick(): void {
     this.appService.getVersion().subscribe(d => {
