@@ -10,9 +10,9 @@ Angular + ServiceWorker のサンプルです。
 
 # 使用ライブラリ
 
-* TypeScript - 3.2.x
-* Angular - 7.2.x
-* @angular/pwa - 0.12
+* TypeScript - 3.5.x
+* Angular - 8.2.x
+* @angular/pwa - 0.803
 
 # 動作確認
 
