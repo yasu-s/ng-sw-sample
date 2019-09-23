@@ -1,46 +1,46 @@
-# 概要
+# Overview
 
-Angular + ServiceWorker のサンプルです。
+Angular + ServiceWorker sample.
 
 
-# 実行環境
+# System requirements
 
 * Node.js - 10.x
 * Yarn - 1.12.x
 
-# 使用ライブラリ
+# Used library
 
 * TypeScript - 3.5.x
 * Angular - 8.2.x
 * @angular/pwa - 0.803
 
-# 動作確認
+# Usage
 
-## 1. サンプルのダウンロード
+## 1. Download Sample
 
 ```
 git clone git@github.com:yasu-s/ng-sw-sample.git
 ```
 
-## 2. パッケージインストール  
+## 2. Installing packages  
 
 ```
 cd ng-sw-sample
 yarn
 ```
 
-## 3. サンプルのビルド  
+## 3. Build the sample  
 
 ```
 yarn build:prod
 ```
 
-## 4. サンプルの起動  
+## 4. Launch sample application  
 
 ```
 yarn serve
 ```
 
-## 5. 実行結果
+## 5. Execution result
 
 http://localhost:8080/
